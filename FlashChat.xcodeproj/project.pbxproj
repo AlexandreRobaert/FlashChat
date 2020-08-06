@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,9 @@
 		AC02E89D24D5EC2E004D76B1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02E89C24D5EC2E004D76B1 /* RegisterViewController.swift */; };
 		AC02E89F24D5EC40004D76B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02E89E24D5EC40004D76B1 /* LoginViewController.swift */; };
 		AC02E8A124D5EE9A004D76B1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02E8A024D5EE9A004D76B1 /* ChatViewController.swift */; };
+		AC50B53824DAE0B40049FAAC /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50B53624DAE0B40049FAAC /* MessageTableViewCell.swift */; };
+		AC50B53924DAE0B40049FAAC /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC50B53724DAE0B40049FAAC /* MessageTableViewCell.xib */; };
+		ACA613FF24DA2BEC00A550CF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA613FE24DA2BEC00A550CF /* Message.swift */; };
 		ACB2830624D7D148003DA026 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2830524D7D148003DA026 /* Constants.swift */; };
 		ACB2830A24D7D522003DA026 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB2830924D7D522003DA026 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -36,6 +39,9 @@
 		AC02E89C24D5EC2E004D76B1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		AC02E89E24D5EC40004D76B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC02E8A024D5EE9A004D76B1 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AC50B53624DAE0B40049FAAC /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		AC50B53724DAE0B40049FAAC /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		ACA613FE24DA2BEC00A550CF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		ACB2830524D7D148003DA026 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ACB2830924D7D522003DA026 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +113,7 @@
 			children = (
 				AC02E88B24D5E4A2004D76B1 /* Main.storyboard */,
 				AC02E89024D5E4A3004D76B1 /* LaunchScreen.storyboard */,
+				AC50B53724DAE0B40049FAAC /* MessageTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 				AC02E89C24D5EC2E004D76B1 /* RegisterViewController.swift */,
 				AC02E89E24D5EC40004D76B1 /* LoginViewController.swift */,
 				AC02E8A024D5EE9A004D76B1 /* ChatViewController.swift */,
+				AC50B53624DAE0B40049FAAC /* MessageTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB2830524D7D148003DA026 /* Constants.swift */,
+				ACA613FE24DA2BEC00A550CF /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +201,7 @@
 			files = (
 				AC02E89224D5E4A3004D76B1 /* LaunchScreen.storyboard in Resources */,
 				ACB2830A24D7D522003DA026 /* GoogleService-Info.plist in Resources */,
+				AC50B53924DAE0B40049FAAC /* MessageTableViewCell.xib in Resources */,
 				AC02E88F24D5E4A3004D76B1 /* Assets.xcassets in Resources */,
 				AC02E88D24D5E4A2004D76B1 /* Main.storyboard in Resources */,
 			);
@@ -248,9 +258,11 @@
 			files = (
 				AC02E88A24D5E4A2004D76B1 /* WelcomeViewController.swift in Sources */,
 				AC02E88624D5E4A2004D76B1 /* AppDelegate.swift in Sources */,
+				AC50B53824DAE0B40049FAAC /* MessageTableViewCell.swift in Sources */,
 				AC02E88824D5E4A2004D76B1 /* SceneDelegate.swift in Sources */,
 				AC02E89F24D5EC40004D76B1 /* LoginViewController.swift in Sources */,
 				ACB2830624D7D148003DA026 /* Constants.swift in Sources */,
+				ACA613FF24DA2BEC00A550CF /* Message.swift in Sources */,
 				AC02E8A124D5EE9A004D76B1 /* ChatViewController.swift in Sources */,
 				AC02E89D24D5EC2E004D76B1 /* RegisterViewController.swift in Sources */,
 			);
