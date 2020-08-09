@@ -1,18 +1,17 @@
 //
-//  MessageTableViewCell.swift
+//  YouTableViewCell.swift
 //  FlashChat
 //
-//  Created by Alexandre Robaert on 05/08/20.
+//  Created by Alexandre Robaert on 08/08/20.
 //  Copyright © 2020 Alexandre Robaert. All rights reserved.
 //
 
 import UIKit
 
-class MessageTableViewCell: UITableViewCell {
+class YouTableViewCell: UITableViewCell {
 
     @IBOutlet weak var messageBuble: UIView!
     @IBOutlet weak var messageLabel: UILabel!
-    @IBOutlet weak var avatarImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,8 +20,7 @@ class MessageTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
     }
     
 }
